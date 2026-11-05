@@ -1,0 +1,43 @@
+*.log
+*.json
+*.gz
+*.tar
+*.tar.gz
+*.pt
+*.npz
+*.png
+project_structure.txt
+/chk_*
+__pycache__/
+/preview_*
+/rigcheck_*
+/runs_v*
+/vids_v*
+/tmp
+/out
+/model_new
+/CubismWebSamples
+/dbg
+/live2d-models
+/clips
+/synth
+/rigs
+/data# Live recordings: session.mp4 has video and voice muxed; the raw parts are
+# large (a 158 MB speech.wav was rejected by GitHub).
+/runs/live/*/speech.wav
+/runs/live/*/video.mp4
+# Your own VRM avatars (third-party models: their licences usually forbid
+# redistribution); the samples in assets/vrm are the ones that may be shared.
+/vrm/
+
+# local venvs, generated datasets and transfer archives
+/.venv/
+/*venv/
+/data/
+/*.tgz
+
+# demo renders: keep demo.mp4 and the text, not the frames or the wav
+/runs/demo*/*/render/
+/runs/demo*/*/speech.wav
+/runs/*/*/speech.wav
+/runs/*/*/render/*.png

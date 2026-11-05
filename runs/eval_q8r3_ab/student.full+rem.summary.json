@@ -1,0 +1,41 @@
+{
+ "turns": 820,
+ "parse_rate": 0.0159,
+ "refused_rate": 0.0,
+ "refusal_text_rate": 0.0,
+ "cutoff_rate": 0.0,
+ "markers_per_turn": {
+  "frame": 0.041,
+  "move": 0.06,
+  "pose": 3.161
+ },
+ "body_markers_per_turn": 3.221,
+ "unplayed_per_turn": 0.017,
+ "unplayed": {
+  "pose": 1,
+  "move": 8,
+  "frame": 5
+ },
+ "not_played": {},
+ "reach": {
+  "targets": 10584,
+  "ok": 10475,
+  "miss": 109,
+  "rate": 0.9897
+ },
+ "miss_per_turn": 0.133,
+ "first_text_seconds": {
+  "p50": 0.077,
+  "p90": 0.4
+ },
+ "tokens_per_second": {
+  "p50": 123.05
+ },
+ "out_tokens_per_turn": 216.2,
+ "name": "student.full+rem",
+ "cond": "full+rem",
+ "backend": "ollama",
+ "model": "tsk-q8r3",
+ "sessions": 82,
+ "seconds": 3003.4
+}

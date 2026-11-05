@@ -1,0 +1,43 @@
+{
+ "turns": 820,
+ "parse_rate": 0.0061,
+ "refused_rate": 0.0,
+ "refusal_text_rate": 0.0,
+ "cutoff_rate": 0.0,
+ "markers_per_turn": {
+  "blink": 0.007,
+  "frame": 0.055,
+  "gesture": 0.001,
+  "move": 0.055,
+  "pause": 0.039,
+  "pose": 3.173
+ },
+ "body_markers_per_turn": 3.237,
+ "unplayed_per_turn": 0.001,
+ "unplayed": {
+  "moves": 1
+ },
+ "not_played": {
+  "pose:unsolved": 2
+ },
+ "reach": {
+  "targets": 11642,
+  "ok": 11538,
+  "miss": 104,
+  "rate": 0.9911
+ },
+ "miss_per_turn": 0.127,
+ "first_text_seconds": {
+  "p50": 0.0,
+  "p90": 0.0
+ },
+ "tokens_per_second": {
+  "p50": null
+ },
+ "out_tokens_per_turn": 142.9,
+ "name": "recorded",
+ "backend": "recorded",
+ "model": null,
+ "sessions": 82,
+ "seconds": 478.5
+}
